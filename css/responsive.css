@@ -1,0 +1,49 @@
+@media(max-width:900px){
+
+  .menu-toggle{
+    display:block;
+  }
+
+  nav ul{
+    position:absolute;
+    top:80px;
+    right:-100%;
+    width:250px;
+    height:100vh;
+
+    background:#111;
+
+    flex-direction:column;
+
+    padding:40px;
+
+    transition:0.5s;
+  }
+
+  nav ul.active{
+    right:0;
+  }
+
+  .hero h1{
+    font-size:2.5rem;
+  }
+
+  .about{
+    text-align:center;
+    justify-content:center;
+  }
+
+  .about-image img{
+    width:100%;
+    max-width:350px;
+  }
+
+  .project-container{
+    grid-template-columns:1fr;
+  }
+
+  .socials{
+    flex-direction:column;
+    align-items:center;
+  }
+}

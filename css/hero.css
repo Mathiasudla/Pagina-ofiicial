@@ -1,0 +1,51 @@
+.hero{
+  height:100vh;
+
+  background:
+  linear-gradient(
+    rgba(0,0,0,0.75),
+    rgba(0,0,0,0.75)
+  ),
+
+  url('https://res.cloudinary.com/da77ibnzb/image/upload/q_auto/f_auto/v1779986769/IMG_2193_uftrvx.jpg');
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  align-items:center;
+
+  padding:0 8%;
+}
+
+.hero-content{
+  max-width:700px;
+}
+
+.hero h1{
+  font-size:4rem;
+  margin-bottom:20px;
+  line-height:1.1;
+}
+
+.hero p{
+  font-size:1.2rem;
+  color:#d4d4d4;
+  margin-bottom:35px;
+}
+
+.btn{
+  display:inline-block;
+  padding:15px 35px;
+  border-radius:50px;
+  background:#00ff88;
+  color:black;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:translateY(-5px);
+  background:white;
+}

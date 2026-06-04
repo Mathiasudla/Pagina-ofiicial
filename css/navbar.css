@@ -1,0 +1,46 @@
+.navbar{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  z-index:1000;
+  background:rgba(0,0,0,0.6);
+  backdrop-filter:blur(10px);
+}
+
+.logo{
+  font-size:1.4rem;
+  font-weight:bold;
+  color:#00ff88;
+}
+
+.logo i{
+  margin-right:10px;
+}
+
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:white;
+  font-weight:500;
+  transition:0.3s;
+}
+
+nav ul li a:hover{
+  color:#00ff88;
+}
+
+.menu-toggle{
+  display:none;
+  font-size:1.6rem;
+  cursor:pointer;
+}

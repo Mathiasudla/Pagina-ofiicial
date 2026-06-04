@@ -1,0 +1,94 @@
+.contact{
+  background:#151515;
+  padding:100px 8%;
+  text-align:center;
+}
+
+.contact h2{
+  color:#00ff88;
+  margin-bottom:40px;
+  font-size:2.5rem;
+}
+
+.contact-box{
+  max-width:600px;
+  margin:auto;
+  background:#1f1f1f;
+  padding:40px;
+  border-radius:20px;
+}
+
+.contact-box p{
+  margin:20px 0;
+  font-size:1.1rem;
+}
+
+.contact-box i{
+  color:#00ff88;
+  margin-right:10px;
+}
+
+/* REDES */
+
+.socials{
+  margin-top:40px;
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.social{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:15px 28px;
+  border-radius:15px;
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+  transition:0.4s;
+}
+
+.social i{
+  font-size:1.5rem;
+}
+
+/* INSTAGRAM */
+
+.instagram{
+  background:linear-gradient(
+    45deg,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  );
+}
+
+.instagram:hover{
+  transform:translateY(-5px) scale(1.05);
+  box-shadow:0 10px 25px rgba(255,0,128,0.4);
+}
+
+/* TIKTOK */
+
+.tiktok{
+  background:#111;
+  border:1px solid #00f2ea;
+}
+
+.tiktok:hover{
+  transform:translateY(-5px) scale(1.05);
+  box-shadow:0 10px 25px rgba(0,242,234,0.4);
+}
+
+/* YOUTUBE */
+
+.youtube{
+  background:#ff0000;
+}
+
+.youtube:hover{
+  transform:translateY(-5px) scale(1.05);
+  box-shadow:0 10px 25px rgba(255,0,0,0.4);
+}
